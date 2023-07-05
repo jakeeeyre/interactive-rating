@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Frontend Mentor | Interactive rating component</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="star-wrapper">
+				<img src="images/icon-star.svg" />
+			</div>
+			<h1 id="question">How did we do?</h1>
+			<p id="help-us">
+				Please let us know how we did with your support request. All feedback is
+				appreciated to help us improve our offering!
+			</p>
+			<div class="rating-wrapper">
+				<p class="num">1</p>
+				<p class="num">2</p>
+				<p class="num">3</p>
+				<p class="num">4</p>
+				<p class="num">5</p>
+			</div>
+			<button id="submit-button" type="submit" value="Submit">Submit</button>
+		</div>
+		<div class="wrapper-thankyou hidden">
+			<img id="phone-img" src="images/illustration-thank-you.svg" />
+			<div class="result">
+				<p>You selected <span id="change">blank</span> out of 5</p>
+			</div>
+			<h1 id="thank-you">Thank you!</h1>
+			<p id="get-in-touch">
+				We appreciate you taking the time to give us a rating. If you ever need
+				more support, don't hesitate to get in touch!
+			</p>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
